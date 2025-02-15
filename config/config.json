@@ -1,0 +1,23 @@
+{
+    "database": {
+        "host": "localhost",
+        "port": 3306,
+        "username": "localhost",
+        "password": ""
+    },
+    "server": {
+        "port": 8000,
+        "debug": true
+    },
+    "image": {
+        "DB_detection_model": "DB_TD500_resnet18.onnx",
+        "EAST_detection_model": "frozen_east_text_detection.pb",
+        "scaling_factor": 2,
+        "interpolation": 0,
+        "output_image_size": 128
+    },
+    "models": {
+        "ResNet": ["checkpoint.ResNet50.keras", "checkpoint.ResNet101.keras"],
+        "label": ["char001_0", "char002_1", "char003_2", "char004_3", "char005_4", "char006_5", "char007_6", "char008_7", "char009_8", "char010_9", "char011_A", "char012_B", "char013_C", "char014_D", "char015_E", "char016_F", "char017_G", "char018_H", "char019_I", "char020_J", "char021_K", "char022_L", "char023_M", "char024_N", "char025_O", "char026_P", "char027_Q", "char028_R", "char029_S", "char030_T", "char031_U", "char032_V", "char033_W", "char034_X", "char035_Y", "char036_Z", "char037_a", "char038_b", "char039_c", "char040_d", "char041_e", "char042_f", "char043_g", "char044_h", "char045_i", "char046_j", "char047_k", "char048_l", "char049_m", "char050_n", "char051_o", "char052_p", "char053_q", "char054_r", "char055_s", "char056_t", "char057_u", "char058_v", "char059_w", "char060_x", "char061_y", "char062_z"]
+    }
+}
