@@ -35,8 +35,10 @@ python main.py -i "path_to_image" --display --write --model "ResNet101"
 
 ### CLI Usage
 this is example of CLI usage with some text image
+
 #### original image
-    ![Alt Text](demo_data/bound_image/original_image.png)
+![Alt Text](demo_data/bound_image/original_image.png)
+
 
 #### output
 ```cmd
